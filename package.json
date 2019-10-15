@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "docoman",
+  "version": "1.0.0",
+  "description": "Docker Container Manager",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sinan Turgut <mail@sinanturgut.com.tr>",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "about-window": "^1.13.1",
+    "auto-launch-patched": "5.0.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bluebird": "3.5.5",
+    "electron": "^6.0.2",
+    "electron-packager": "^14.0.4",
+    "electron-preferences": "^1.3.0",
+    "electron-rpc": "^2.0.1",
+    "electron-store": "^4.0.0"
+  },
+  "engine": {
+    "node": ">=6"
+  }
+}

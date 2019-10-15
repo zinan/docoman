@@ -1,0 +1,17 @@
+{
+    "startStop" : "Başlat/Durdur",
+    "restart" : "Yeniden Başlat",
+    "openTerminal" : "Komut Satırı Aç",
+    "dockerEngine" : "Docker Motoru",
+    "running" : "Çalışıyor",
+    "dockerEngineisRunning" : "Docker Motoru Çalışıyor",
+    "dockerEngineisNotRunning" : "Docker Motoru Çalışmıyor",
+    "removeAllExitedContainers" : "Çıkış Yapılmış Olan Tüm Taşıyıcıları Sil",
+    "about" : "Hakkında",
+    "preferences" : "Seçenekler...",
+    "checkUpdates" : "Güncellemeleri Denetle...",
+    "quit" : "Çıkış",
+    "close" : "Kapat",
+    "reportIssue" : "Hata Bildir",
+    "language" : "Dil"
+}

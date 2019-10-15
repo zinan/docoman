@@ -1,0 +1,1 @@
+exports.SAVE_PREFERENCES = "savePreferences";

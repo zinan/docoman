@@ -1,0 +1,17 @@
+{
+  "startStop" : "Start/Stop",
+  "restart" : "Restart",
+  "openTerminal" : "Open Terminal",
+  "dockerEngine" : "Docker Engine",
+  "running" : "Running",
+  "dockerEngineisRunning" : "Docker Engine is Running",
+  "dockerEngineisNotRunning" : "Docker Engine is not Running",
+  "removeAllExitedContainers" : "Remove All Exited Containers",
+  "about" : "About",
+  "preferences" : "Preferences...",
+  "checkUpdates" : "Check for Updates...",
+  "quit" : "Quit",
+  "close" : "Close",
+  "reportIssue" : "Report an Issue",
+  "language" : "Language"
+}
