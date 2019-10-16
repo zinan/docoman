@@ -27,11 +27,11 @@
       ]
     },
     "appImage": {
-      "license": "LGPL-3.0"
+      "license": "LICENSE"
     },
     "nsis": {
       "createDesktopShortcut": "always",
-      "license": "LGPL-3.0"
+      "license": "LICENSE"
     }
   },
   "author": "Sinan Turgut <mail@sinanturgut.com.tr>",
