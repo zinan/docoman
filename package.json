@@ -1,11 +1,38 @@
 {
-  "private": true,
   "name": "docoman",
   "version": "1.0.0",
   "description": "Docker Container Manager",
+  "repository": "https://github.com/zinan/docoman",
   "main": "app.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "release": "electron-builder",
+    "test": "echo success"
+  },
+  "build": {
+    "appId": "tr.com.sinanturgut.docoman",
+    "publish": "github",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "appImage": {
+      "license": "LGPL-3.0"
+    },
+    "nsis": {
+      "createDesktopShortcut": "always",
+      "license": "LGPL-3.0"
+    }
   },
   "author": "Sinan Turgut <mail@sinanturgut.com.tr>",
   "license": "LGPL-3.0",
@@ -25,5 +52,9 @@
   },
   "engine": {
     "node": ">=6"
+  },
+  "devDependencies": {
+    "electron": "^6.0.2",
+    "electron-builder": "^21.2.0"
   }
 }
